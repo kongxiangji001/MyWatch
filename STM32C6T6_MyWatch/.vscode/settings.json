@@ -1,0 +1,15 @@
+{
+    "nrf-connect.topdir": "c:\\ncs\\v2.0.0",
+    "nrf-connect.toolchain.path": "${nrf-connect.toolchain:2.0.0}",
+    "files.associations": {
+        "stdlib.h": "c",
+        "usb.h": "c",
+        "multi_button.h": "c",
+        "main.h": "c",
+        "1_1interface_memu.h": "c",
+        "1_1interface_menu.h": "c",
+        "oledfont.h": "c",
+        "oled.h": "c",
+        "stm32f1xx_hal.h": "c"
+    }
+}
