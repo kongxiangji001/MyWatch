@@ -294,90 +294,90 @@ void SystemClock_Config(void)
 
 /* USER CODE BEGIN 4 */
 
-void BTN1_PRESS_DOWN_Handler(void* btn)
-{
-	//do something...
-  printf("button1 down!\r\n");
-  OLED_ShowPicture(0,0,128,64,BMP1,1);
-  OLED_Refresh();
-  key_num = 1;
-}
-void BTN1_PRESS_UP_Handler(void* btn)
-{
-	//do something...
-  printf("button1 up!\r\n");
-}
-
-void BTN2_PRESS_DOWN_Handler(void* btn)
-{
-	//do something...
-  printf("button2 down!\r\n");
-  OLED_ShowPicture(0,0,128,64,BMP2,1);
-  OLED_Refresh();
-  key_num = 2;
-}
-void BTN2_PRESS_UP_Handler(void* btn)
-{
-	//do something...
-  printf("button2 up!\r\n");
-}
-
-void BTN3_PRESS_DOWN_Handler(void* btn)
-{
-	//do something...
-  printf("button3 down!\r\n");
-  OLED_ShowPicture(0,0,128,64,BMP2,1);
-  OLED_Refresh();
-  key_num = 3;
-}
-void BTN3_PRESS_UP_Handler(void* btn)
-{
-	//do something...
-  printf("button3 up!\r\n");
-}
-
-void BTN4_PRESS_DOWN_Handler(void* btn)
-{
-	//do something...
-  printf("button4 down!\r\n");
-  OLED_ShowPicture(0,0,128,64,BMP2,1);
-  OLED_Refresh();
-  key_num = 4;
-}
-void BTN4_PRESS_UP_Handler(void* btn)
-{
-	//do something...
-  printf("button4 up!\r\n");
-}
-
-void BTN5_PRESS_DOWN_Handler(void* btn)
-{
-	//do something...
-  printf("button5 down!\r\n");
-  OLED_ShowPicture(0,0,128,64,BMP2,1);
-  OLED_Refresh();
-  key_num = 5;
-}
-void BTN5_PRESS_UP_Handler(void* btn)
-{
-	//do something...
-  printf("button5 up!\r\n");
-}
-
-
-void BTN6_PRESS_DOWN_Handler(void* btn)
-{
-	//do something...
-  printf("button6 down!\r\n");
-  OLED_ShowPicture(0,0,128,64,BMP2,1);
-  OLED_Refresh();
-  key_num = 6;
-}
-void BTN6_PRESS_UP_Handler(void* btn)
-{
-	//do something...
-  printf("button6 up!\r\n");
-}
+//void BTN1_PRESS_DOWN_Handler(void* btn)
+//{
+//	//do something...
+//  printf("button1 down!\r\n");
+//  OLED_ShowPicture(0,0,128,64,BMP1,1);
+//  OLED_Refresh();
+//  key_num = 1;
+//}
+//void BTN1_PRESS_UP_Handler(void* btn)
+//{
+//	//do something...
+//  printf("button1 up!\r\n");
+//}
+//
+//void BTN2_PRESS_DOWN_Handler(void* btn)
+//{
+//	//do something...
+//  printf("button2 down!\r\n");
+//  OLED_ShowPicture(0,0,128,64,BMP2,1);
+//  OLED_Refresh();
+//  key_num = 2;
+//}
+//void BTN2_PRESS_UP_Handler(void* btn)
+//{
+//	//do something...
+//  printf("button2 up!\r\n");
+//}
+//
+//void BTN3_PRESS_DOWN_Handler(void* btn)
+//{
+//	//do something...
+//  printf("button3 down!\r\n");
+//  OLED_ShowPicture(0,0,128,64,BMP2,1);
+//  OLED_Refresh();
+//  key_num = 3;
+//}
+//void BTN3_PRESS_UP_Handler(void* btn)
+//{
+//	//do something...
+//  printf("button3 up!\r\n");
+//}
+//
+//void BTN4_PRESS_DOWN_Handler(void* btn)
+//{
+//	//do something...
+//  printf("button4 down!\r\n");
+//  OLED_ShowPicture(0,0,128,64,BMP2,1);
+//  OLED_Refresh();
+//  key_num = 4;
+//}
+//void BTN4_PRESS_UP_Handler(void* btn)
+//{
+//	//do something...
+//  printf("button4 up!\r\n");
+//}
+//
+//void BTN5_PRESS_DOWN_Handler(void* btn)
+//{
+//	//do something...
+//  printf("button5 down!\r\n");
+//  OLED_ShowPicture(0,0,128,64,BMP2,1);
+//  OLED_Refresh();
+//  key_num = 5;
+//}
+//void BTN5_PRESS_UP_Handler(void* btn)
+//{
+//	//do something...
+//  printf("button5 up!\r\n");
+//}
+//
+//
+//void BTN6_PRESS_DOWN_Handler(void* btn)
+//{
+//	//do something...
+//  printf("button6 down!\r\n");
+//  OLED_ShowPicture(0,0,128,64,BMP2,1);
+//  OLED_Refresh();
+//  key_num = 6;
+//}
+//void BTN6_PRESS_UP_Handler(void* btn)
+//{
+//	//do something...
+//  printf("button6 up!\r\n");
+//}
 /* USER CODE END 4 */
 
 /**
